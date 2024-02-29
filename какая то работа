@@ -1,0 +1,48 @@
+#coding utf-8
+#Задача №1
+x = int(input("Введите x = "))
+y = 7*x+5
+print (y)
+#Задача №2
+q = int(input("Введите q = "))
+w = q*4
+print (w)
+#Задача №3
+p = 3.14
+r = int(input("Введите r = "))
+e = (p * 2)*r
+print (e)
+#Задача №4 
+i = 3.14
+d = int(input("Введите d = "))
+R=d/2
+u = i*R**R
+print (u)
+#Задача №5 
+a = int(input("Введите a = "))
+b = int(input("Введите b = "))
+c**c  = a**a + b**b 
+print (c)
+#Задача 6
+a = int(input("Введите a ="))
+b = int(input("Введите b ="))
+c = a**2 + b**2 
+P = a + b + c
+print(P)
+#Задание 7
+a = int(input("Введите a ="))
+b = int(input("Введите b ="))
+P = 2 * (a + b)
+c = (a**2 + b**2)
+print (P,c)
+#Задание 8
+r = int(input("Введите r ="))
+R = int(input("Введите R ="))
+p = 3.14
+S = p*(R+r)**2
+print (S)
+#Задание 9
+a = int(input("Введите a ="))
+S = 6*a**2
+V = a**3
+print (S,V)
