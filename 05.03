@@ -1,0 +1,20 @@
+#Задача 1
+p = float(input("Введите число ="))
+a = 1 
+while a < p:
+    a += 1
+    print (a)
+#Задача 2
+a = int(input("Введите число ="))
+b = int(input("Введите число ="))
+
+while a < b:
+     a += 1
+     print (a) 
+#Задача 3
+a = int(input("Введите число ="))
+b = int(input("Введите число ="))
+c = a + 1 
+while c < b:
+    b -= 1
+    print (b)
