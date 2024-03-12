@@ -1,0 +1,24 @@
+№1 
+m = ['круг', 0.25, 'квадрат', 'треугольник', 15, 'круг', 'овал', '10']
+print (m)
+
+m.remove(0.25)
+m.remove("10")
+m.remove(15)
+print (m)
+№2
+abc = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+del abc [1:5]
+print(abc)
+№3
+n = [1, 4]
+n.insert(1,2)
+n.insert(2,3)
+print(n)
+№4 
+mass = [14, -6, 3, 11, 6, 8.5, 99, -20, -6, 10, 40, 0.25, -4, 5]
+del mass [1]
+del mass [6:8]
+del mass [9]
+mass.sort(reverse=False)
+print(mass)
