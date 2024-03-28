@@ -44,3 +44,26 @@ for row in matrix:
         if num > 0:
             a *= num 
 print (a)
+#Задача 31
+import random  
+def creatArray():
+    r = 0
+    print('Input first index matrix: ')
+    x = int(input())
+    print('Input second index matrix: ')
+    y = int(input())
+    array = []
+    for i in range(x):
+        array.append([])
+        for j in range(y):
+            array[i].append(random.randint(-10,10))
+            r += 1  
+    return array
+matrix=creatArray()
+print(matrix)
+a = int()
+for row in matrix:
+    c=min(row)
+    if c<a:
+        a=c
+print (a)
