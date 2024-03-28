@@ -12,3 +12,12 @@ for row in b:
         if num == 0:
             count+=1
 print(count)
+# Задача 29
+b = [[1,0,-2],[1,2,0],[0,-1,5]]
+a = 1 
+print (b)
+for row in b:
+    for num in row:
+        if num < 0:
+            a *= num
+print (a)
