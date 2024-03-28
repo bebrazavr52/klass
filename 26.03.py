@@ -21,3 +21,26 @@ for row in b:
         if num < 0:
             a *= num
 print (a)
+# Задача 30 
+import random  
+def creatArray():
+    r = 0
+    print('Input first index matrix: ')
+    x = int(input())
+    print('Input second index matrix: ')
+    y = int(input())
+    array = []
+    for i in range(x):
+        array.append([])
+        for j in range(y):
+            array[i].append(random.randint(-100,100))
+            r += 1  
+    return array
+matrix=creatArray()
+print(matrix)
+a = 1
+for row in matrix:
+    for num in row:
+        if num > 0:
+            a *= num 
+print (a)
