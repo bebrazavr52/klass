@@ -67,3 +67,32 @@ for row in matrix:
     if c<a:
         a=c
 print (a)
+# Задача 32
+import random  
+def creatArray():
+    r = 0
+    print('Input first index matrix: ')
+    x = int(input())
+    print('Input second index matrix: ')
+    y = int(input())
+    array = []
+    for i in range(x):
+        array.append([])
+        for j in range(y):
+            array[i].append(random.randint(-10,10))
+            r += 1  
+    return array
+matrix=creatArray()
+print(matrix)
+a = 0 
+for row in matrix:
+    c = min(row)
+    if c < a: 
+        a= c 
+print (a)
+b = 0 
+for row in matrix:
+    d = max(row)
+    if d > b:
+        b = d 
+print (b)
