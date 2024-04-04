@@ -122,6 +122,27 @@ for i in matrix:
     Result=0
             
 print(a)
+# Задача 37
+import random  
+def creatArray():
+    r = 0
+    x = 2
+    y = 2
+    array = []
+    for i in range(x):
+        array.append([])
+        for j in range(y):
+            array[i].append(random.randint(-10,10))
+            r += 1  
+    return array
+matrix=creatArray()
+print(matrix)
+a = []
+for row in matrix:
+    for i in row:
+        if i != 0:
+            a.append(i)
+print (a)
 # Задача 39
 import random  
 def creatArray():
@@ -142,4 +163,25 @@ Min=int()
 for i in matrix:
     Min=min(i)
     a.append(Min)
+print (a)
+#Задча 40
+import random  
+def creatArray():
+    r = 0
+    x = 2
+    y = 2
+    array = []
+    for i in range(x):
+        array.append([])
+        for j in range(y):
+            array[i].append(random.randint(-10,10))
+            r += 1  
+    return array
+matrix=creatArray()
+print(matrix)
+a = []
+for row in matrix:
+    for i in row:
+        if i != 0:
+            a.append(i)
 print (a)
