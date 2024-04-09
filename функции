@@ -1,0 +1,85 @@
+#Пример 
+def schet ():
+    a = input()
+    a = float(a)
+    b = input()
+    b = float(b)
+    if a > b:
+        print (a - b)
+    else:
+        print (b - a)
+    return a,b
+
+c, d = schet()
+e, f = schet()
+z, x = schet()
+
+# Задача 1
+def schet ():
+    a = input()
+    a = float(a)
+    b = input()
+    b = float(b)
+    y = input()
+    y = float(y)
+    if a > b > y:
+        print (a - b + y)
+    else:
+        print (b - a + y)
+    return a,b,y
+
+c,d,e = schet()
+f,g,h = schet()
+z,x,v = schet()
+#Задача 2
+def schet ():
+    a = input()
+    a = float(a)
+    b = input()
+    b = float(b)
+    if a > b:
+        print (a - b)
+    else:
+        print (b - a)
+    return a,b
+
+с, d = schet()
+
+
+def pipi ():
+    x = input()
+    x = float(x)
+    y = input()
+    y = float(y)
+    if x > y:
+        print (x+ y)
+    else:
+        print (y + x)
+    return x,y
+
+e, f = schet()
+#Задача 3
+answer = ["душ", "@","петушиным"]
+def schet1 ():
+    mystery1 = ("То холодный, то горячий, то стоячий, то висячий, я три буквы назову, в середине буква у")
+    mystery2 = "Не лает, не кусается, и точно так же называется"
+    mystery3 = "Каким гребнем не расчешешь волосы?"
+    a = input()
+    if a == answer[0]:
+        print (True)
+    else:
+        print (False)
+def schet2 (): 
+    mystery2 = ("Не лает, не кусается, и точно так же называется")
+    a = input()
+    if mystery2 == "@":
+        print (True)
+    else:
+        print (False)
+def schet3 ():
+    mystery3 = ("Каким гребнем не расчешешь волосы?")
+    a = input ()
+    if mystery3 == "петушиным":
+        print (True)
+    else:
+        print (False)
