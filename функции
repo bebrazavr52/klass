@@ -62,24 +62,28 @@ e, f = schet()
 answer = ["душ", "@","петушиным"]
 def schet1 ():
     mystery1 = ("То холодный, то горячий, то стоячий, то висячий, я три буквы назову, в середине буква у")
-    mystery2 = "Не лает, не кусается, и точно так же называется"
-    mystery3 = "Каким гребнем не расчешешь волосы?"
+    print (mystery1)
     a = input()
     if a == answer[0]:
-        print (True)
+        print ("Правильно , молодец")
     else:
-        print (False)
+        print ("Неверно, правильный ответ - ", answer[0])
 def schet2 (): 
     mystery2 = ("Не лает, не кусается, и точно так же называется")
+    print(mystery2)
     a = input()
-    if mystery2 == "@":
-        print (True)
+    if mystery2 == answer[1]:
+        print ("Правильно , молодец")
     else:
-        print (False)
+        print ("Неверно, правильный ответ - ", answer[1])
 def schet3 ():
     mystery3 = ("Каким гребнем не расчешешь волосы?")
+    print(mystery3)
     a = input ()
-    if mystery3 == "петушиным":
-        print (True)
+    if mystery3 == answer[2]:
+        print ("Правильно , молодец")
     else:
-        print (False)
+        print ("Неверно, правильный ответ - ", answer[2] )
+schet1()
+schet2()
+schet3()
